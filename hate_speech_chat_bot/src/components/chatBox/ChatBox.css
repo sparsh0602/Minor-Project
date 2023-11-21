@@ -1,0 +1,75 @@
+.chatBoxBodyContainer{
+    background-color: black;
+    min-width: 100px;
+    min-height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+.chatBoxContainer{
+    width: 60%;
+    background-color: whitesmoke;
+    min-height: 400px;
+    padding: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius:50px ;
+}
+.botMessage{
+    display: flex;
+    padding: 10px;
+    background-color: tan;
+    margin-bottom: 5px;
+    width: 50%;
+    border-radius: 5px;
+}
+.botMessageText{
+    background-color: tan;
+    font-weight: 600;
+}
+.humanMessage{
+    display: flex;
+    padding: 10px;
+    background-color: pink;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    width: 50%;
+    border-radius: 5px;
+    margin-left: 50%;
+}
+.humanMessageText{
+    background-color: pink;
+    font-weight: 600;
+}
+.chatBoxInputContainer{
+    min-height: 100px;
+    width: 60%;
+    background-color: lightgray;
+    padding: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+.submitButtonContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50px;
+    min-width: 200px;
+    background-color: pink;
+    margin-top: 8px;
+    border-radius: 10px;
+    border: 0px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.submitButtonContainer:hover{
+    background-color: tan;
+    cursor: pointer;
+}

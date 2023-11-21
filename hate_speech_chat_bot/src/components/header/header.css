@@ -1,0 +1,45 @@
+.header{
+    background-image: url("../images/headerImage.png");
+    min-height: 700px;
+    background-color: black;
+    margin-top: 20px;
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+    padding-bottom: 30px;
+
+}
+.headerButtonContainer{
+    display: flex;
+    align-items: center;
+    width: 350px;
+    height: 100px;
+    background-color: whitesmoke;
+    align-items: center;
+    justify-content: center;
+    
+    border-radius: 50px;
+    border: 0px;
+    cursor: pointer;
+}
+.headerButton{
+    background-color: whitesmoke;
+
+}
+.headerButtonText{
+background-color: whitesmoke;
+font-size: 22px;
+font-weight: 700;
+}
+@media all and (max-width:767px)
+{
+    .header{
+        background-image: url("../images/headerImage.png");
+        width: 700px;
+        background-color: black;
+        display: flex;
+    }
+}
+.headerButtonContainer:hover{
+    background-color: #E5E5E5;
+}
